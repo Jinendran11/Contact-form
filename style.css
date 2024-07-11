@@ -64,6 +64,7 @@ body {
 }
 .input-control {
     margin-bottom: 15px;
+    width: 90%;
 }
 
 .input-control label {
@@ -105,7 +106,8 @@ body {
 
 button[type="submit"] {
     padding: 10px 20px;
-    margin: 5px 210px 0 220px;
+    display: block;
+    margin: 0 auto;
     background-color: yellow;
     color: black;
     border: none;
