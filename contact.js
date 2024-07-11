@@ -96,7 +96,7 @@ const validateInputs = () => {
     }
 
 
-    localStorage.setItem('contactData', JSON.stringify({ name, address, phone, email, message }));
+    localStorage.setItem('contactData', JSON.stringify({ nameValue, address, phone, email, message }));
         alert('Form submitted successfully!');
         contactModal.style.display = 'none';
 
