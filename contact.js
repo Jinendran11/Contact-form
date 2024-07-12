@@ -120,5 +120,6 @@ const validateInputs = () => {
         localStorage.setItem('contactData', JSON.stringify(contactData));
         alert('Contact data submitted successfully!');
         document.getElementById('modal').style.display = 'none';
+        form.reset()
     }
 };
